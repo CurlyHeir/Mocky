@@ -15,10 +15,10 @@ Library that uses metaprogramming technique, to generate mocks based on sources,
                        DESC
 
   s.homepage         = 'https://github.com/MakeAWishFoundation/SwiftyMocky'
-  s.screenshots      = './docs/example-given.gif', './docs/example-verify.gif'
+  #s.screenshots      = 'https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/assets/example-watcher.gif', 'https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/assets/example-given.gif', 'https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/assets/example-verify.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Przemysław Wośko' => 'przemyslaw.wosko@intive.com', 'Andrzej Michnia' => 'amichnia@gmail.com' }
-  s.source           = { :git => 'https://github.com/MakeAWishFoundation/SwiftyMocky', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MakeAWishFoundation/SwiftyMocky.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.default_subspec  = "Core"
